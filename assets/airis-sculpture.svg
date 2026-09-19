@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="860" viewBox="0 0 800 860" fill="none">
+<defs>
+  <linearGradient id="face" x1="210" y1="154" x2="561" y2="664" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F5F4"/><stop offset=".35" stop-color="#B8BCC6"/><stop offset=".64" stop-color="#666D7F"/><stop offset="1" stop-color="#E7E9ED"/></linearGradient>
+  <linearGradient id="edge" x1="606" y1="188" x2="644" y2="660" gradientUnits="userSpaceOnUse"><stop stop-color="#7E889E"/><stop offset=".42" stop-color="#272D3B"/><stop offset="1" stop-color="#444E64"/></linearGradient>
+  <linearGradient id="blue" x1="233" y1="488" x2="624" y2="343" gradientUnits="userSpaceOnUse"><stop stop-color="#B84400"/><stop offset=".5" stop-color="#FF6A00"/><stop offset="1" stop-color="#FFC28B"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#FF6A00" stop-opacity=".22"/><stop offset="1" stop-color="#FF6A00" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="0" y="0" width="800" height="860" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="28"/></filter>
+  <linearGradient id="ground" x1="157" y1="731" x2="655" y2="732"><stop stop-color="#30394F" stop-opacity="0"/><stop offset=".5" stop-color="#30394F"/><stop offset="1" stop-color="#30394F" stop-opacity="0"/></linearGradient>
+</defs>
+<ellipse cx="417" cy="389" rx="358" ry="379" fill="url(#halo)"/>
+<ellipse cx="416" cy="740" rx="240" ry="24" fill="#000" opacity=".72" filter="url(#shadow)"/>
+<path d="M174 691 363 153H452L642 691H520L407 332 293 691H174Z" fill="url(#face)"/>
+<path d="M452 153 489 175 679 667 642 691 452 153Z" fill="url(#edge)"/>
+<path d="M407 332 439 353 329 670 293 691 407 332Z" fill="#3D4557"/>
+<path d="M174 691 211 708H329L293 691H174Z" fill="#5B6374"/>
+<path d="M520 691 554 708H654L679 667 642 691H520Z" fill="#414A5D"/>
+<path d="M258 550 596 343 596 431 258 638V550Z" fill="url(#blue)"/>
+<path d="M596 343 631 363V450L596 431V343Z" fill="#843400"/>
+<path d="M258 638 289 657 631 450 596 431 258 638Z" fill="#6F2B00"/>
+<path d="M363 153H452L642 691" stroke="#FBFBFA" stroke-opacity=".48" stroke-width="1.2"/>
+<path d="M258 550 596 343" stroke="#FFCCAA" stroke-opacity=".72" stroke-width="1.3"/>
+<path d="M108 734H714" stroke="url(#ground)"/>
+<path d="M109 790H690M110 93H691" stroke="#262B34"/>
+<text x="111" y="819" font-family="Arial, sans-serif" font-size="11" fill="#818896" letter-spacing="3">AIRIS / INTELLIGENCE INTO IMPACT</text>
+<text x="111" y="78" font-family="Arial, sans-serif" font-size="11" fill="#818896" letter-spacing="2">THE NEXT ERA OF COMMERCE</text>
+<text x="692" y="78" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#818896" letter-spacing="2">A — 01</text>
+</svg>
